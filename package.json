@@ -1,0 +1,13 @@
+{
+  "name": "async-vanillajs-comment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BolajiOlajide/async-vanillajs-comment.git",
+  "author": "BolajiOlajide",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
