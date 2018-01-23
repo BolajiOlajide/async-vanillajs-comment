@@ -23,7 +23,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/comment', function(req, res){
-  console.log(req.body);
   const newComment = {
     name: req.body.name,
     email: req.body.email,
